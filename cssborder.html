@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Styles</title>
+    <style>
+        div {
+            border: 1px solid black;
+            margin: 5px;
+            background-color: lightblue;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        p {
+            background-color: rgb(135, 150, 187);
+            border-radius: 5px;
+            height: 20px;
+            margin: 5px 0; /* Add some spacing between paragraphs */
+        }
+        
+        p.dashed { border: 2px dashed black; }
+        p.solid { border: 2px solid black; }
+        p.double { border: 4px double black; }
+        p.groove { border: 2px groove black; }
+        p.ridge { border: 2px ridge black; }
+        p.inset { border: 2px inset black; }
+        p.outset { border: 2px outset black; }
+        p.none { border: none; }
+        p.hidden { border: hidden; }
+        p.mix { border: 2px dotted dashed solid double; }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>The border-style Property</h2>
+        <p>This property specifies what kind of border to display:</p>
+        
+        <p class="dotted" style="border: 2px dotted black;">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="solid">A solid border.</p>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+    </div>
+</body>
+</html>
